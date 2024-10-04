@@ -1,0 +1,65 @@
+{
+	"key": "group_62e3cb63bae67",
+	"title": "Reusable - Theme Color Select",
+	"fields": [
+		{
+			"key": "field_62e3cb7a72bb0",
+			"label": "Color",
+			"name": "color",
+			"aria-label": "",
+			"type": "radio",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"choices": {
+				"automatic": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: #ffffff; border: solid 2px #000; border-radius: 5px;\"></span></div>",
+				"color1": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: var(--color1); border: solid 1px #ccc; border-radius: 5px;\"></span></div>",
+				"color2": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: var(--color2); border: solid 1px #ccc; border-radius: 5px;\"></span></div>",
+				"color3": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: var(--color3); border: solid 1px #ccc; border-radius: 5px;\"></span></div>",
+				"color4": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: var(--color4); border: solid 1px #ccc; border-radius: 5px;\"></span></div>",
+				"color5": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: var(--color5); border: solid 1px #ccc; border-radius: 5px;\"></span></div>",
+				"color6": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: var(--color6); border: solid 1px #ccc; border-radius: 5px;\"></span></div>",
+				"color7": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: var(--color7); border: solid 1px #ccc; border-radius: 5px;\"></span></div>",
+				"color8": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: var(--color8); border: solid 1px #ccc; border-radius: 5px;\"></span></div>",
+				"color9": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: var(--color9); border: solid 1px #ccc; border-radius: 5px;\"></span></div>",
+				"color10": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: var(--color10); border: solid 1px #ccc; border-radius: 5px;\"></span></div>",
+				"color11": "<div class=\"d-inline-flex align-items-center\"><span style=\"display:inline-block; height:20px; width: 20px; background: var(--color11); border: solid 1px #ccc; border-radius: 5px;\"></span></div>"
+			},
+			"default_value": "automatic",
+			"return_format": "value",
+			"allow_null": 0,
+			"other_choice": 0,
+			"layout": "horizontal",
+			"save_other_choice": 0
+		}
+	],
+	"location": [
+		[
+			{
+				"param": "post_type",
+				"operator": "==",
+				"value": "post"
+			},
+			{
+				"param": "post_type",
+				"operator": "!=",
+				"value": "post"
+			}
+		]
+	],
+	"menu_order": 0,
+	"position": "normal",
+	"style": "default",
+	"label_placement": "top",
+	"instruction_placement": "label",
+	"hide_on_screen": "",
+	"active": true,
+	"description": "",
+	"show_in_rest": 0,
+	"modified": 1705687574
+}

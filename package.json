@@ -1,0 +1,16 @@
+{
+	"name": "Dev-WP-Dev-Child",
+	"version": "1.0.0",
+	"description": "",
+	"author": "Rob @ Dev-WP",
+	"license": "Private, copyright",
+	"homepage": "bidmark.co.uk",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Dev-WPBM/dev-wp-child.git"
+	},
+	"dependencies": {
+		"@mdi/font": "^6.5.95",
+		"jquery.counterup": "^2.1.0"
+	}
+}

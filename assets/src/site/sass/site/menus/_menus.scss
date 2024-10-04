@@ -1,0 +1,50 @@
+#devwp-Header nav {
+	@media (max-width: $devwp-Breakpoints--Navbar) {
+		.dropdown-toggle::after {
+			display: inline-block;
+		}
+		ul.dropdown-menu {
+			display: none;
+			border-radius: 0;
+		}
+
+		.nav,
+		ul.dropdown-menu {
+			border-top: solid 2.5px $color-1;
+			font-size: $font-size-base * 0.875;
+			> li:not(:last-of-type):not(.devwp-Button-Wrapper) {
+				border-bottom: solid 1px #eaeaea;
+			}
+		}
+		.menu-item.focus > .dropdown-menu {
+			display: block;
+		}
+		&.navbar .devwp-Button-Wrapper {
+			> a {
+				margin-top: 1.5em !important;
+				margin-bottom: 0 !important;
+			}
+		}
+	}
+	// Above Nav Breakpoint
+	@media (min-width: $devwp-Breakpoints--Navbar) {
+		.dropdown-toggle::after {
+			display: none;
+		}
+		.nav {
+			font-size: $font-size-base;
+		}
+		ul.dropdown-menu {
+			left: 0.5em;
+			font-size: $font-size-base;
+			border-top: solid 4px $color-1;
+			> li:not(:last-of-type):not(.devwp-Button-Wrapper) {
+				border-bottom: solid 1px #eaeaea;
+			}
+			ul.dropdown-menu {
+				left: 100%;
+				top: 0;
+			}
+		}
+	}
+}

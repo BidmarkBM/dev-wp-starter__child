@@ -1,0 +1,61 @@
+{
+    "key": "group_65b8d9b74ddaf",
+    "title": "Reusable - Column Splits",
+    "fields": [
+        {
+            "key": "field_65b8d9b867e22",
+            "label": "Width",
+            "name": "width",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "2": "1\/6",
+                "3": "1\/4",
+                "4": "1\/3",
+                "6": "1\/2",
+                "8": "2\/3",
+                "9": "3\/4",
+                "10": "5\/6",
+                "12": "6\/6"
+            },
+            "default_value": 6,
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            },
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1707162886
+}

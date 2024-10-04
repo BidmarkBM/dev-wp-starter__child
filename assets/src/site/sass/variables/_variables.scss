@@ -1,0 +1,18 @@
+$devwp-Button__Text-Transform: capitalize;
+$devwp-Footer__Background--Dark: $color-6;
+$devwp-Section__Padding-X: 0em;
+$devwp-Section__Padding-Y: 3.6em;
+$devwp-Inner-Content__Margin-Y: 2.4em;
+
+$devwp-Inv__Background--Transparent-Darken: rgba(0, 0, 0, 0.05);
+$devwp-Inv__Background--Transparent-Lighten: rgba(255, 255, 255, 0.05);
+
+$devwp-Breakpoints--Navbar: map-get($grid-breakpoints, lg);
+
+$devwp-Border: 3px solid $color-1;
+
+$devwp-Logo__Width: 150px;
+
+$devwp-Full-Section-Height: calc(100dvh - 200px);
+
+$devwp-Breakpoints--Navbar: map-get($grid-breakpoints, lg);

@@ -1,0 +1,58 @@
+{
+    "key": "group_65c9089a4aa93",
+    "title": "Reusable - Panels Per Row",
+    "fields": [
+        {
+            "key": "field_65c9089a583a1",
+            "label": "Value",
+            "name": "inverse",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "12": "1",
+                "6": "2",
+                "4": "3",
+                "3": "4",
+                "2": "6"
+            },
+            "default_value": 4,
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            },
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1708479243
+}
